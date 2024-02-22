@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 export default function MyFooter({ brandTitle }) {
   return (
-    <Container fluid className="py-4 bg-light">
+    <Container fluid className="py-4 bg-light mt-3">
       <Container className="d-flex justify-content-between" as="footer">
         <div className="col-md-4 d-flex align-items-center">
           <a
