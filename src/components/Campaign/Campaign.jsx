@@ -15,7 +15,7 @@ export default function Campaign({ campaign }) {
   return (
     <Col>
       <Card className="h-100" style={{ border: "none" }}>
-        <CardImg src={campaign.img} alt="..." position="top" />
+        <CardImg src={campaign.photoUrl} alt="..." position="top" />
         <CardBody
           style={{ display: "flex", flexDirection: "column", gap: "16px" }}
         >
