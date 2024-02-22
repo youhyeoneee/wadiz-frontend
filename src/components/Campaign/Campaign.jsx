@@ -22,6 +22,7 @@ export default function Campaign({ campaign }) {
             flexDirection: "column",
             gap: "16px",
             justifyContent: "space-between",
+            padding: "var(--bs-card-spacer-y) 0",
           }}
         >
           <div>
